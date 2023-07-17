@@ -1,0 +1,573 @@
+{
+	"info": {
+		"_postman_id": "be7c981b-bcc6-4fb1-8423-e14c217a2247",
+		"name": "Задание Дом питомца",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28243514"
+	},
+	"item": [
+		{
+			"name": "/Вид животного/test_species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&species__name=TEST_species",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "TEST_species"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Вид животного/герой",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&species__name=Герой",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Герой"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Вид животного/Кот",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&species__name=кот",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "кот"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Порода/Corgi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&breed__code=\"Corgi\"",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "breed__code",
+							"value": "\"Corgi\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Порода/Сибирская кошка",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&breed__code=sibir_cat",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "breed__code",
+							"value": "sibir_cat"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Порода/Сибирская кошка 2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/Порода/indian22",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&breed__code=indianindian",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "breed__code",
+							"value": "indianindian"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Порода/Mega_Corgi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&breed__code=FAT_BUM",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "breed__code",
+							"value": "FAT_BUM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Пол/F",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&gender__code=4455",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "gender__code",
+							"value": "4455"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Пол/Kuki",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&gender__code=4456",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "gender__code",
+							"value": "4456"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Пол/Девочка",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&gender__code=f",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "gender__code",
+							"value": "f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Пол/Кабель",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&gender__code=wait_home",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "gender__code",
+							"value": "wait_home"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Пол/Мальчик",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&gender__code=m",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "gender__code",
+							"value": "m"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Возраст/0",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&age=0",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Возраст/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&age=1",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Возраст/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?page=1&page_size=6&age=2",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
